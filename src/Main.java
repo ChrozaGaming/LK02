@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
 class Kendaraan {
-    String platNomor;
-    int jumlahPenumpang;
-    int kapasitas;
-    Driver driver;
+    private String platNomor;
+    private int jumlahPenumpang;
+    private int kapasitas;
+    public Driver driver;
 
     public Kendaraan(String platNomor, int kapasitas) {
         this.platNomor = platNomor;
